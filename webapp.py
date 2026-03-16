@@ -1,4 +1,4 @@
-mport streamlit as st
+import streamlit as st
 st.title("Iris Prediction")
 import pickle
 model=pickle.load(open("model_svm.pkl","rb"))
